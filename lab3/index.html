@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №3 — Мультимедіа</title>
+</head>
+<body style="font-family: Roboto, Arial, sans-serif; margin: 0; padding: 24px; background-color: #fafafa; color: #0f0f0f;">
+
+    <header style="margin-bottom: 24px;">
+        <p><a href="../index.html" style="text-decoration: none; color: #065fd4; font-weight: 500;">← Повернутися на головну</a></p>
+    </header>
+
+    <div style="display: flex; gap: 36px; max-width: 1300px; margin: 0 auto; align-items: flex-start;">
+        
+        <!-- Основний контент (Пункти 4.4 - 4.10) -->
+        <main style="flex: 2; background: #ffffff; padding: 28px; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
+            <article>
+
+                <!-- Пункти 4.4, 4.5, 4.6: Шапка каналу коледжу -->
+                <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
+                    <!-- Секція 1: Логотип коледжу -->
+                    <section>
+                        <img src="logo.png" 
+                             alt="IT коледж Львівської політехніки" 
+                             width="150" 
+                             height="150"
+                             style="border-radius: 50%; object-fit: cover; display: block; border: 1px solid #e0e0e0;">
+                    </section>
+
+                    <!-- Секція 2: Назва, опис та кнопка Підписатися -->
+                    <section style="display: flex; flex-direction: column; gap: 6px;">
+                        <h1 style="margin: 0; font-size: 26px; font-weight: bold;">IT коледж Львівської політехніки</h1>
+                        <p style="margin: 0; color: #606060; font-size: 14px;">@itcollegelviv • Підписалося 105 користувачів • 58 відео</p>
+                        <p style="margin: 0; color: #606060; font-size: 14px;">
+                            IT коледж Львівської політехніки... <span style="color: #0f0f0f; font-weight: 500;">більше</span>
+                        </p>
+                        <p style="margin: 0; font-size: 14px;">
+                            <a href="https://itcollege.lviv.ua" target="_blank" style="color: #065fd4; text-decoration: none; font-weight: 500;">itcollege.lviv.ua</a>
+                            <span style="color: #606060;"> і ще 2 посилання</span>
+                        </p>
+                        <div style="margin-top: 8px;">
+                            <a href="https://www.youtube.com/@itcollegelviv?sub_confirmation=1" target="_blank" style="text-decoration: none;">
+                                <button type="button" style="background-color: #0f0f0f; color: #ffffff; border: none; padding: 10px 20px; font-size: 14px; font-weight: bold; border-radius: 20px; cursor: pointer;">
+                                    Підписатися
+                                </button>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+
+                <hr style="border: 0; border-top: 1px solid #eeeeee; margin: 24px 0;">
+
+           <!-- Пункт 4.7: Секція 3 — Відео mp4 -->
+<section style="margin-bottom: 36px;">
+    <h2 style="font-size: 20px; margin-bottom: 12px;">#подкастидляабітурієнтів ІТ коледжу Львівської політехніки, випуск#4 з Кащуком В.Д.</h2>
+    <video controls 
+           width="80%" 
+           height="540" 
+           preload="auto"
+           style="background-color: #000; border-radius: 12px; display: block;">
+        <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+        <p>Ваш браузер не підтримує тег video.</p>
+    </video>
+</section>
+
+                <!-- Пункт 4.8: Секція 4 — Аудіофайл -->
+                <section style="margin-bottom: 36px;">
+                    <h2 style="font-size: 20px; margin-bottom: 12px;">Аудіозапис подкасту</h2>
+                    <audio controls style="width: 80%;">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                        <p>Ваш браузер не підтримує тег audio.</p>
+                    </audio>
+                </section>
+
+<!-- Пункт 4.9: Секція 5 — YouTube відео через iframe -->
+<section style="margin-bottom: 36px;">
+    <h2 style="font-size: 20px; margin-bottom: 12px;">Трансляція про навчання в коледжі</h2>
+<iframe width="560" 
+        height="315" 
+        src="https://www.youtube-nocookie.com/embed/K2WWM02kB4c" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        style="border-radius: 12px; max-width: 100%;">
+</iframe>
+</section>
+
+<!-- Пункт 4.10: Секція 6 — Гугл карта через iframe -->
+<section style="margin-bottom: 36px;">
+    <h2 style="font-size: 20px; margin-bottom: 12px;">Університети та коледжі Львова</h2>
+    <iframe src="https://www.google.com/maps/d/u/2/embed?mid=13rxY8RqCN84JjwEX1qVJu33ib4ZvQE8&ehbc=2E312F" 
+            width="100%" 
+            height="450" 
+            style="border: 0; border-radius: 12px;">
+    </iframe>
+</section>
+
+        <!-- Пункт 4.11: Бічна панель Aside зі списком спеціальностей (Зобр. 2) -->
+        <aside style="flex: 1; background: #ffffff; padding: 24px; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
+            <h3 style="font-size: 17px; margin-top: 0; margin-bottom: 20px; font-weight: bold;">Спеціальності та освітні програми</h3>
+            <div style="display: flex; flex-direction: column; gap: 18px;">
+                
+                <a href="https://www.youtube.com/@itcollegelviv" target="_blank" style="text-decoration: none; color: inherit; display: flex; gap: 12px; align-items: center;">
+                    <img src="https://picsum.photos/120/70?random=1" alt="0:35" style="border-radius: 8px; width: 120px; height: 70px; object-fit: cover;">
+                    <div>
+                        <p style="margin: 0; font-size: 13px; font-weight: 500; line-height: 1.3;">Вивчай спеціальність майбутнього...</p>
+                        <span style="font-size: 12px; color: #606060;">0:35</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@itcollegelviv" target="_blank" style="text-decoration: none; color: inherit; display: flex; gap: 12px; align-items: center;">
+                    <img src="https://picsum.photos/120/70?random=2" alt="0:28" style="border-radius: 8px; width: 120px; height: 70px; object-fit: cover;">
+                    <div>
+                        <p style="margin: 0; font-size: 13px; font-weight: 500; line-height: 1.3;">122 Комп'ютерні науки. Computer Science. Вступ у ІТ...</p>
+                        <span style="font-size: 12px; color: #606060;">0:28</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@itcollegelviv" target="_blank" style="text-decoration: none; color: inherit; display: flex; gap: 12px; align-items: center;">
+                    <img src="https://picsum.photos/120/70?random=3" alt="0:31" style="border-radius: 8px; width: 120px; height: 70px; object-fit: cover;">
+                    <div>
+                        <p style="margin: 0; font-size: 13px; font-weight: 500; line-height: 1.3;">172 Телекомунікації та радіотехніка —...</p>
+                        <span style="font-size: 12px; color: #606060;">0:31</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@itcollegelviv" target="_blank" style="text-decoration: none; color: inherit; display: flex; gap: 12px; align-items: center;">
+                    <img src="https://picsum.photos/120/70?random=4" alt="0:31" style="border-radius: 8px; width: 120px; height: 70px; object-fit: cover;">
+                    <div>
+                        <p style="margin: 0; font-size: 13px; font-weight: 500; line-height: 1.3;">172 Телекомунікації та радіотехніка — Інжиніринг та...</p>
+                        <span style="font-size: 12px; color: #606060;">0:31</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@itcollegelviv" target="_blank" style="text-decoration: none; color: inherit; display: flex; gap: 12px; align-items: center;">
+                    <img src="https://picsum.photos/120/70?random=5" alt="0:33" style="border-radius: 8px; width: 120px; height: 70px; object-fit: cover;">
+                    <div>
+                        <p style="margin: 0; font-size: 13px; font-weight: 500; line-height: 1.3;">029 Інформаційна, бібліотечна та архівна справа</p>
+                        <span style="font-size: 12px; color: #606060;">0:33</span>
+                    </div>
+                </a>
+
+            </div>
+        </aside>
+
+    </div>
+
+    <footer style="margin-top: 40px; text-align: center; color: #888888; font-size: 14px;">
+        <p>&copy; 2026 Назарій Шило. Всі права захищено.</p>
+    </footer>
+
+</body>
+</html>
