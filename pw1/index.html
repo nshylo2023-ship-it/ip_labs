@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Adventures Blog</title>
+    <!-- Підключення іконки сайту -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Подорожі дружби: відкриваючи світ разом 🌍</h1>
+        <p>Привіт! Це блог про наші найкращі пригоди. Подорожувати з друзями — це створювати спогади на все життя. Приєднуйтесь до наших відкриттів!</p>
+    </header>
+
+<nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="lviv.html">Львів</a></li>
+            <li><a href="rome.html">Рим</a></li>
+            <li><a href="tokyo.html">Токіо</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Наші топ-3 міста</h2>
+            <div id="photo-gallery">
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="lviv.jpg" alt="Панорама Львова" aria-label="Панорама Львова">
+                            <figcaption>Львів — місто з ароматом кави ☕</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="rome.jpg" alt="Колізей у Римі" aria-label="Колізей у Римі">
+                            <figcaption>Рим — вічне місто 🏛️</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="tokyo.jpg" alt="Вулиці Токіо" aria-label="Вулиці Токіо">
+                            <figcaption>Токіо — поєднання традицій та майбутнього 🗼</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Форма підписки на новини -->
+        <section id="subscribe">
+            <h2>Підписка на новини</h2>
+            <form action="#" method="post">
+                <label for="sub-email">Ваш Email:</label>
+                <input type="email" id="sub-email" name="email" placeholder="example@mail.com" required>
+                
+                <label for="consent">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    Я даю згоду на отримання розсилки
+                </label>
+                
+                <button type="submit">Підписатися</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Політика конфіденційності</a></li>
+                <li><a href="#">Умови використання</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="#">Faceblock</a>
+            <a href="#">Tweety</a>
+            <a href="#">Instadrama</a>
+        </div>
+        <p>Контакти: info@adventures.blog</p>
+        <p>&copy; 2035 Назарій Adventures Blog.</p>
+    </footer>
+</body>
+</html>
