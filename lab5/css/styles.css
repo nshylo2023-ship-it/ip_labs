@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4; 
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    padding: 40px 20px;
+    margin-bottom: 20px; 
+    background-size: cover !important;
+    display: flex;
+    align-items: flex-end;
+}
+
+#hero .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(46,49,146, 0.9), rgba(0,0,0, 0.1));
+}
+
+#hero .container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#hero h2 a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 32px; 
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row a {
+    width: 25%; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.shortcut-1, .shortcut-2, .shortcut-3, .shortcut-4 {
+    padding: 30px 15px;
+    text-align: center;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.3s;
+}
+
+.shortcut-1 { background-color: #1a428a; }
+.shortcut-2 { background-color: #2e3192; }
+.shortcut-3 { background-color: #1a428a; }
+.shortcut-4 { background-color: #2e3192; }
+
+.row a:hover div {
+    background-color: #ffcc00; 
+    color: #1a428a;
+}
+
+.row h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.row svg {
+    width: 40px;
+    height: 40px;
+}
