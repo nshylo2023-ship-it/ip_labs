@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    position: sticky; /* Фіксує хедер при прокручуванні сторінки */
+    top: 0;
+    z-index: 100; /* Відображає хедер поверх інших елементів */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    position: sticky; /* Фіксує заголовки секцій при прокручуванні */
+    top: 40px; /* Відступ на приблизну висоту головного хедера */
+    background: #f9f9f9;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 90; /* Нижче за головний хедер, але вище за текст */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Секція 1 */
+#section-1 img {
+    float: left; /* Елемент вирівнюється ліворуч, а текст обтікає його справа[cite: 31] */
+    margin-right: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.clear {
+    clear: both; /* Очищує обтікання, щоб наступні елементи не "зависали" поруч[cite: 31] */
+}
+
+/* Секція 2 */
+.multicolumn-text {
+    column-count: 3; /* Задає кількість колонок згідно з макетом[cite: 32, 34] */
+    column-width: 300px;
+    column-gap: 20px;
+}
+
+/* Секція 3 */
+#subscribe-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#subscribe-button:hover {
+    background-color: #45a049;
+}
+
+/* Модальне вікно */
+#modal.hidden {
+    display: none; /* Приховує модальне вікно за замовчуванням */
+}
+
+#modal {
+    position: fixed; /* Залишається на одному місці у вікні браузера[cite: 32] */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Перекриває абсолютно всі інші елементи сторінки[cite: 33] */
+}
+
+.modal-content {
+    background: white;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
