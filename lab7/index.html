@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Львівська політехніка - Flexbox та Grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header id="events_container">
+        <div class="container">
+            <div class="events-header">
+                <h2><a href="#">Незабаром у Львівській політехніці</a></h2>
+            </div>
+            <div class="events-flex-container">
+                
+                <div class="event-card">
+                    <a href="#">
+                        <img src="https://lpnu.ua/sites/default/files/styles/event_teaser/public/2026/10/29/events/38206/yafisha.jpg?itok=VTwd-h3p" alt="Анонс 1">
+                    </a>
+                    <div class="event-date">
+                        <time>чт., 19 листоп., 09:00 - пт., 20 листоп., 15:00</time>
+                    </div>
+                    <h3><a href="#">XII Міжнародний молодіжний науковий форум «Litteris et Artibus» (LEA-2026)</a></h3>
+                </div>
+
+                <div class="event-card">
+                    <a href="#">
+                        <img src="https://lpnu.ua/sites/default/files/styles/event_teaser/public/2026/11/12/events/38463/tttelichko-khristinafeysbuk.jpg?itok=To_f8MeC" alt="Анонс 2">
+                    </a>
+                    <div class="event-date">
+                        <time>чт., 19 листоп., 13:00 - 15:00</time>
+                    </div>
+                    <h3><a href="#">Запрошуємо на зустріч MeetUp з Христиною Теличко, Competence Operations Lead в компанії N-iX</a></h3>
+                </div>
+
+                <div class="event-card">
+                    <a href="#">
+                        <img src="https://lpnu.ua/sites/default/files/styles/event_teaser/public/2026/10/16/events/38028/1geminigeneratedimagesikc0esikc0esikc.jpg?itok=ELi4JSD-" alt="Анонс 3">
+                    </a>
+                    <div class="event-date">
+                        <time>чт., 26 листоп., 09:30 - 18:00</time>
+                    </div>
+                    <h3><a href="#">V Міжнародна студентська науково-практична конференція «Організаційні, правові та психолого-педагогічні аспекти...</a></h3>
+                </div>
+
+                 <div class="event-card">
+                    <a href="#">
+                        <img src="https://lpnu.ua/sites/default/files/styles/event_teaser/public/2026/10/30/events/38222/55afisha4-1536x806.jpg?itok=GX4H2O_8" alt="Анонс 4">
+                    </a>
+                    <div class="event-date">
+                        <time>чт., 26 листоп., 10:00 - 16:00</time>
+                    </div>
+                    <h3><a href="#">IX Міжнародна науково-практична конференція «Українська мова у світі: (де)українізація?»</a></h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" class="main-container container">
+        <h2 class="section-title">Новини університету</h2>
+        
+        <div class="news-grid">
+            
+            <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38502/dsc09800.jpg?itok=oJrXQ8Hh" alt="Новина 1">
+                    <div class="news-date">13 ЛИСТОП. 2026, 16:25</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">Львівська політехніка отримала дві подяки Міністерства освіти і науки України за лідерство в науковій діяльності</a></h3>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38496/1stipendiati.jpg?itok=7Za6D_KA" alt="Новина 2">
+                    <div class="news-date">13 ЛИСТОП. 2026, 15:46</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">16 молодих науковців Львівської політехніки стали стипендіатами Кабінету Міністрів України</a></h3>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38498/90200062511667875325888399206938489428514646n.jpg?itok=ozhgVGgb" alt="Новина 3">
+                    <div class="news-date">13 ЛИСТОП. 2026, 15:10</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">Проректор Ігор Гельжинський представив досвід Львівської політехніки на Форумі доступності</a></h3>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38487/z1avantazhennya-1.jpg?itok=1DX35298" alt="Новина 4">
+                    <div class="news-date">13 ЛИСТОП. 2026, 14:33</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">Студенти ІЕСК, ІКНІ та ІМІТ навчаються у Ганноверському університеті в межах проєкту MERIT-Ukraine</a></h3>
+                </div>
+            </article>
+
+             <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38492/nmt.jpg?itok=P4YUiDgE" alt="Новина 5">
+                    <div class="news-date">13 ЛИСТОП. 2026, 13:55</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">Готуватися до НМТ разом із Львівською політехнікою можна очно і дистанційно</a></h3>
+                </div>
+            </article>
+
+             <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38493/110.jpg?itok=6IXtm7Nk" alt="Новина 6">
+                    <div class="news-date">13 ЛИСТОП. 2026, 13:30</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">Tech StartUp School приєдналася до реалізації проєкту BRIDGE: Bridge to Innovate – Connecting STEM talent to entrepreneurial pathways</a></h3>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38491/1praktikum-poshuk-partneriv-2026.jpg?itok=qh73qCHF" alt="Новина 7">
+                    <div class="news-date">13 ЛИСТОП. 2026, 13:15</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">Проєктний офіс запрошує на практикум «Пошук партнерів і формування консорціуму в міжнародних проєктах»</a></h3>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image-wrapper">
+                    <img src="https://lpnu.ua/sites/default/files/styles/teaser/public/2026/11/13/news/38488/m1olodiy-vcheniy.jpg?itok=6rU5J-2H" alt="Новина 8">
+                    <div class="news-date">13 ЛИСТОП. 2026, 12:55</div>
+                </div>
+                <div class="news-content">
+                    <h3><a href="#">Восьмеро науковців Львівської політехніки стали лауреатами конкурсу «Молодий вчений року – 2026»</a></h3>
+                </div>
+            </article>
+            
+        </div>
+    </main>
+
+</body>
+</html>
