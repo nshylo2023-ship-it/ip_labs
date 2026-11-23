@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Trivia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav aria-label="Головна навігація">
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#scores">Scores</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="content-section">
+            <h1>Welcome to World Trivia</h1>
+            <p>
+                World Trivia is your daily destination for fascinating facts, brain-teasing quizzes, 
+                and global knowledge competitions. Explore thousands of questions across science, 
+                history, geography, and pop culture, and compete with players from around the world!
+            </p>
+        </section>
+
+
+        <section id="trivia" class="content-section">
+            <h2>Featured Trivia</h2>
+
+            <div class="trivia-item">
+                <img src="https://picsum.photos/seed/space/150/150" alt="Космос та планети">
+                <div>
+                    <h3>Space Exploration</h3>
+                    <p>Did you know that a day on Venus is longer than a year on Venus? It takes Venus longer to rotate once on its axis than to complete one orbit of the Sun.</p>
+                </div>
+            </div>
+
+            <div class="trivia-item">
+                <img src="https://picsum.photos/seed/history/150/150" alt="Стародавня історія">
+                <div>
+                    <h3>Ancient History</h3>
+                    <p>The Great Pyramid of Giza was the tallest man-made structure in the world for over 3,800 years until the Lincoln Cathedral was completed in England in 1311.</p>
+                </div>
+            </div>
+
+            <div class="trivia-item">
+                <img src="https://picsum.photos/seed/nature/150/150" alt="Природа та океан">
+                <div>
+                    <h3>Ocean Wonders</h3>
+                    <p>Octopuses have three hearts, nine brains, and blue blood. Two hearts pump blood to the gills, while the third pumps it to the rest of the body.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="categories" class="content-section">
+            <h2>Categories</h2>
+            <ul class="categories-list">
+                <li><a href="#trivia">Science &amp; Nature</a></li>
+                <li><a href="#trivia">World History</a></li>
+                <li><a href="#trivia">Geography</a></li>
+                <li><a href="#trivia">Movies &amp; Music</a></li>
+                <li><a href="#trivia">Sports</a></li>
+                <li><a href="#trivia">Technology</a></li>
+            </ul>
+        </section>
+
+
+        <section id="scores" class="content-section">
+            <h2>Top Scores</h2>
+            <table class="scores-table" aria-label="Таблиця найкращих результатів">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                        <th>Country</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alex K.</td>
+                        <td>9850</td>
+                        <td>Ukraine</td>
+                        <td>Technology</td>
+                        <td>2026-11-20</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria S.</td>
+                        <td>9420</td>
+                        <td>Poland</td>
+                        <td>World History</td>
+                        <td>2026-11-19</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>John D.</td>
+                        <td>9100</td>
+                        <td>USA</td>
+                        <td>Science &amp; Nature</td>
+                        <td>2026-11-18</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Elena M.</td>
+                        <td>8890</td>
+                        <td>Germany</td>
+                        <td>Geography</td>
+                        <td>2026-11-17</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section id="subscribe" class="content-section">
+            <h2>Daily Challenge</h2>
+            <p>Want to test your brain every morning? Get our exclusive daily riddle straight to your inbox!</p>
+            <button type="button" class="subscribe-btn" aria-label="Підписатися на Puzzle of the Day">
+                Subscribe to Puzzle of the Day
+                <span class="sr-only">(opens daily newsletter subscription)</span>
+            </button>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <p>Have a great trivia question or feedback? Send us a message below.</p>
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 World Trivia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
